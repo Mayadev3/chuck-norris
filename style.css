@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  padding: 3px;
 }
 .chuck-sticker {
   margin-top: -50px;
@@ -19,9 +20,15 @@ body {
 h1 {
   font-size: 67px;
   font-family: "Bangers", cursive;
+  margin-top: 20px;
 }
-.search {
-  border-radius: 8px;
-  width: 50%;
-  margin: 0 auto;
+.jokes-word {
+  display: block;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+label {
+  font-size: 20px;
 }
