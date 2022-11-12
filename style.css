@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Patua+One&display=swap");
 * {
   box-sizing: border-box; /*so padding and border doesnt effect the width and height of the element*/
 }
@@ -6,6 +6,8 @@
 body {
   margin: 0;
   min-height: 100vh; /* we need to assign a height so the items knows where to center*/
+  background-color: black;
+  color: white;
 }
 .header {
   width: 100%;
@@ -21,6 +23,7 @@ h1 {
   font-size: 67px;
   font-family: "Bangers", cursive;
   margin-top: 20px;
+  color: white;
 }
 .jokes-word {
   display: block;
@@ -30,5 +33,19 @@ h1 {
   text-align: center;
 }
 label {
-  font-size: 20px;
+  font-size: 27px;
+  font-family: "Patua One", cursive;
+  color: #2972fa;
+  margin-top: 10px;
+}
+#category {
+  width: 500px;
+}
+button {
+  color: white;
+  margin-top: 20px;
+}
+
+ul {
+  color: #faca15;
 }

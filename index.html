@@ -33,9 +33,10 @@
       ></iframe>
     </div>
     <div class="container">
-      <form>
+      <form id="form">
         <div>
-          <label for="number">Number</label> <input type="number" id="number" />
+          <label>Category</label>
+          <input type="text" id="category" autocomplete="off" />
         </div>
         <div><button class="get-jokes">Get Jokes</button></div>
       </form>
@@ -44,3 +45,12 @@
     <script src="/script.js"></script>
   </body>
 </html>
+<!--const response = JSON.parse(this.responseText);
+      console.log(response);
+      let output = "";
+      response.result.forEach((answer) => {
+        output += `
+        <li>${answer.value}</li>
+        `;
+        document.querySelector(".jokes").innerHTML = output;
+      });-->
