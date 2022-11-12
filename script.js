@@ -14,9 +14,7 @@ function getJokes(e) {
 
   xhr.onload = function () {
     if (this.status === 200) {
-      let response = JSON.parse(this.responseText);
-      console.log(response);
-      console.log(response.total);
+      const response = JSON.parse(this.responseText);
       let output = "";
       response.result.forEach((answer) => {
         output += `<li>${answer.value}</li>`;
