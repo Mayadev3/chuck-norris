@@ -12,7 +12,7 @@ Coding Achievements:
 - forEach method to loop through the API response
 - data injection into the DOM
 
-
+Demo Link: https://jazzy-syrniki-f71314.netlify.app/
 
 https://user-images.githubusercontent.com/107764065/201527092-79a18dbf-3489-4a30-8c0e-2a9d44f8cf18.mp4
 
